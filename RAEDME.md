@@ -1,40 +1,81 @@
- 🧊 Smart Fridge – Food Freshness Tracker
+ # Smart Fridge Nutrition Assistant
 
-This is a simple Python project I built to track the freshness of fruits and vegetables in a fridge.
+Smart Fridge Nutrition Assistant is a Python desktop application developed to track fridge inventory, monitor food freshness, and provide basic nutrition awareness suggestions.
 
-The idea is to keep a small inventory, calculate how fresh products are based on time, and give simple warnings before they spoil.
+The main goal of this project is to help users see what products they have in their fridge, how much is left, when products may expire, and what products can be suggested based on recent consumption habits.
 
----
+## Features
 
-## 🚀 Features
+- Add food products to the fridge inventory
+- Track product amount, unit, category and added date
+- Show all products in a clear inventory table
+- Search products by name
+- Support both English and Turkish product names
+- Consume or reduce product amount
+- Add more amount to an existing product
+- Delete products from the inventory
+- Calculate freshness percentage
+- Show remaining days before expiration
+- Display product status:
+  - Fresh
+  - Consume Soon
+  - Expired
+- Show today’s priority products
+- Generate weekly usage report
+- Provide basic nutrition awareness suggestions
+- Export inventory data to CSV
+- Show product freshness graph
+- Show category distribution graph
+- Show weekly usage graph
+- Show freshness overview graph
+- Store inventory data with JSON
 
-- Add products with weight
-- Update or reduce product quantity
-- Automatic freshness calculation based on shelf life
-- Warning system for expiring or spoiled items
-- Data saved with JSON
-- Graphs showing freshness over time
-- Multi-product comparison graph
-- Export data to CSV (can be opened in Excel)
-- Simple GUI (button-based interface)
-
----
-
-## 🛠 Technologies
+## Technologies Used
 
 - Python
-- Tkinter (GUI)
-- JSON (data storage)
-- Matplotlib (graphs)
-- CSV (report export)
+- Tkinter
+- ttk Treeview
+- JSON
+- CSV
+- Matplotlib
+- datetime module
 
----
+## Project Purpose
 
-## ▶️ How to Run
+This project was developed as a portfolio project for learning and demonstrating Python desktop application development.
 
-Make sure Python is installed.
+It focuses on:
 
-If needed, install matplotlib:
+- GUI development with Tkinter
+- File-based data storage with JSON
+- Inventory tracking logic
+- Basic data analysis
+- Freshness calculation
+- Simple decision support logic
+- Data visualization with Matplotlib
 
-```bash
-python -m pip install matplotlib
+## How It Works
+
+The user can add products such as fruits, vegetables, dairy products, meat, deli products and drinks to the fridge inventory.
+
+Each product stores:
+
+- Product name
+- Category
+- Amount
+- Unit
+- Added date
+- Freshness percentage
+- Remaining days
+- Status
+
+The application calculates freshness based on the product’s added date and default shelf life.
+
+Example:
+
+```text
+apple → 21 days
+milk → 7 days
+strawberry → 4 days
+chicken → 3 days
+fish → 2 days
