@@ -1,0 +1,92 @@
+[
+    {
+        "action": "delete",
+        "name": "strawberry",
+        "amount": 0,
+        "date": "08.05.2026"
+    },
+    {
+        "action": "add",
+        "name": "banana",
+        "amount": 0,
+        "date": "10.05.2026"
+    },
+    {
+        "action": "add",
+        "name": "banana",
+        "amount": 0,
+        "date": "10.05.2026"
+    },
+    {
+        "action": "add",
+        "name": "banana",
+        "amount": 0,
+        "date": "10.05.2026"
+    },
+    {
+        "action": "add",
+        "name": "banana",
+        "amount": 0,
+        "date": "10.05.2026"
+    },
+    {
+        "action": "add",
+        "name": "",
+        "amount": 0,
+        "date": "10.05.2026"
+    },
+    {
+        "action": "delete",
+        "name": "",
+        "amount": 0,
+        "date": "11.05.2026"
+    },
+    {
+        "action": "delete",
+        "name": "banana",
+        "amount": 0,
+        "date": "11.05.2026"
+    },
+    {
+        "action": "delete",
+        "name": "banana",
+        "amount": 0,
+        "date": "11.05.2026"
+    },
+    {
+        "action": "add",
+        "name": "",
+        "amount": 0,
+        "date": "13.05.2026"
+    },
+    {
+        "action": "add",
+        "name": "egg",
+        "amount": 0,
+        "date": "13.05.2026"
+    },
+    {
+        "action": "delete",
+        "name": "",
+        "amount": 0.0,
+        "date": "13.05.2026"
+    },
+    {
+        "action": "delete",
+        "name": "banana",
+        "amount": 0.0,
+        "date": "13.05.2026"
+    },
+    {
+        "action": "delete",
+        "name": "orange",
+        "amount": 3.0,
+        "date": "13.05.2026"
+    },
+    {
+        "action": "consume",
+        "name": "apple",
+        "amount": 1.0,
+        "date": "13.05.2026"
+    }
+]
